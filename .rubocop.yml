@@ -10,6 +10,10 @@ Naming/FileName:
     - "lib/simplecov-review.rb"
     - "spec/simplecov-review_spec.rb"
 
+Style/Documentation:
+  Exclude:
+    - "example/**/*"
+
 RSpec/NamedSubject:
   Enabled: false
 
